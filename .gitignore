@@ -1,5 +1,8 @@
 .DS_Store
 
+# Webpack bundle
+public/dist/bundle.js
+
 # Logs
 logs
 *.log
