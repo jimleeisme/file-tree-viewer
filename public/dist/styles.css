@@ -1,0 +1,24 @@
+body {
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.slider {
+  max-height: 1500px;
+  overflow-y: hidden;
+  -webkit-transition: max-height 1s linear;
+  -moz-transition: max-height 1s linear;
+  -o-transition: max-height 1s linear;
+  transition: max-height 1s linear;
+}
+
+.hidden {
+  max-height: 0;
+}
